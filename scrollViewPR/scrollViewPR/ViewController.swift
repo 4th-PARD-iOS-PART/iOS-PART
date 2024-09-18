@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         let contentView: UIView = {
             let contents = UIView()
+            contents.backgroundColor = UIColor.white
             contents.translatesAutoresizingMaskIntoConstraints = false
             return contents
         }()
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
             labels.translatesAutoresizingMaskIntoConstraints = false
 //            labels.text = "hello"
             labels.text = "hello"
+            labels.textColor = #colorLiteral(red: 0, green: 1, blue: 0.3539295197, alpha: 1)
             labels.font = .systemFont(ofSize: 50, weight: .heavy)
             return labels
         }()
